@@ -105,10 +105,10 @@ analytics:
 # Site Author
 author:
   name             : "TheMeal"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/avatar.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "그밀의 코딩 일상입니다."
   location         : "South Korea"
-  email            : "mealmealmeal0126@gmail.com"
+  #email            : ""
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -122,6 +122,10 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/realm_eal"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@realmeal"
+      #<i class="fa-brands fa-youtube"></i>
 
 # Site Footer
 footer:
@@ -132,6 +136,9 @@ footer:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/realm_eal"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@realmeal"
 
 
 # Reading Files
@@ -273,3 +280,8 @@ defaults:
       share: true
       related: true
       show_date: true
+      toc: true
+      toc_sticky: true
+      toc_label: "목차"
+      toc_icon: "fa-solid fa-pen"
+      author_profile: false
